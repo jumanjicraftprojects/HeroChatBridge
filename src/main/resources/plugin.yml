@@ -1,0 +1,12 @@
+name: HeroChatBungee
+version: Kat1.0.0
+author: MrKitty_Cat
+main: me.camdenorrb.herochatbridge.bukkit.BukkitPlugin
+
+depend: [Herochat]
+softdepend: [DiscordSRV]
+
+commands:
+
+  herobukkitchatreload:
+    permission: "HeroChatBridge.reload"
