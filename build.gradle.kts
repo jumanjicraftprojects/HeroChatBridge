@@ -1,6 +1,6 @@
 plugins {
     java
-    id("com.github.johnrengelman.shadow") version "5.1.0"
+    //id("com.github.johnrengelman.shadow") version "8.11"
 }
 
 group = "me.camdenorrb"
@@ -39,7 +39,7 @@ repositories {
 
 dependencies {
 
-    testCompile("junit", "junit", "4.12")
+    //testCompile("junit", "junit", "4.12")
 
     compileOnly(":HeroChat")
 
